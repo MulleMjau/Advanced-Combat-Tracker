@@ -1,4 +1,4 @@
-#  FFXIV ACT Custom Triggers
+#  _FFXIV ACT Custom Triggers_
 Here are some triggers (in shareable XML format) that I've found useful at one point or another.
 To add them to [ACT](http://advancedcombattracker.com/home.php), copy the entire XML line and click "Import XML" from inside ACT.
 [Here's](https://github.com/Makar8000/ACT-Discord-Triggers/wiki/First-Time-Setup-Guide) a plugin for ACT that will let ACT call in to a Discord voice channel.
