@@ -15,4 +15,4 @@ I ___always___ have these running, as without them I'm pretty much guaranteed to
 ###  [Raids](https://pastebin.com/Nhd9xVLV)
 ###  [Trials](https://pastebin.com/QJwLyj9k)
 ###  [24-Man](https://pastebin.com/i1Jnjh02)
-###  [Others](https://pastebin.com/pMGtAqRh)
+###  [Others](https://github.com/MulleMjau/Advanced-Combat-Tracker/blob/master/Kat's%20Triggers/Others.md)
