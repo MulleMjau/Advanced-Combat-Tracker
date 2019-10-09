@@ -12,7 +12,7 @@ I ___always___ have these running, as without them I'm pretty much guaranteed to
 	<Trigger R="You lose the effect of Well Fed." SD="Food down" ST="3" CR="F" C="General" T="F" TN="" Ta="F" />
 
 ##  Others
-###  [Raids](https://pastebin.com/Nhd9xVLV)
+###  [Raids](https://github.com/MulleMjau/Advanced-Combat-Tracker/blob/master/Kat's%20Triggers/Raids.md)
 ###  [Trials](https://pastebin.com/QJwLyj9k)
 ###  [24-Man](https://pastebin.com/i1Jnjh02)
 ###  [Others](https://github.com/MulleMjau/Advanced-Combat-Tracker/blob/master/Kat's%20Triggers/Others.md)
