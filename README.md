@@ -1,3 +1,3 @@
 # Advanced-Combat-Tracker
 ACT Data
-Important files forACT
+Important files for ACT
