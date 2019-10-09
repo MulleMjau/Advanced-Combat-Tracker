@@ -446,6 +446,10 @@
     <TextFormats />
     <MacroExports />
     <CustomTriggers>
+        <Trigger R=":[0-9A-F]{8}:[a-zA-Z' ]*:7D:Raise:[0-9A-F]{8}:(?&lt;char&gt;[a-zA-Z']*) [a-zA-Z']*:" SD="Raise on ${char}" ST="3" CR="F" C="Raises" T="F" TN="" Ta="F" />
+	    <Trigger R=":[0-9A-F]{8}:[a-zA-Z' ]*:[0-9A-F]{4}:Verraise:[0-9A-F]{8}:(?&lt;char&gt;[a-zA-Z']*) [a-zA-Z']*:" SD="Raise on ${char}" ST="3" CR="F" C="Raises" T="F" TN="" Ta="F" />
+	    <Trigger R=":[0-9A-F]{8}:[a-zA-Z' ]*:AD:Resurrection:[0-9A-F]{8}:(?&lt;char&gt;[a-zA-Z']*) [a-zA-Z']*:" SD="Raise on ${char}" ST="3" CR="F" C="Raises" T="F" TN="" Ta="F" />
+	    <Trigger R=":[0-9A-F]{8}:[a-zA-Z' ]*:E13:Ascend:[0-9A-F]{8}:(?&lt;char&gt;[a-zA-Z']*) [a-zA-Z']*:" SD="Raise on ${char}" ST="3" CR="F" C="Raises" T="F" TN="" Ta="F" />
         <Trigger Active="True" Regex="Countdown canceled by " SoundData="Scratch That, Hold Up" SoundType="3" CategoryRestrict="False" Category="General" Timer="False" TimerName="" Tabbed="False" />
         <Trigger Active="True" Regex="has initiated a ready check" SoundData="Ready check" SoundType="3" CategoryRestrict="False" Category="General" Timer="False" TimerName="" Tabbed="False" />
         <Trigger Active="True" Regex="You lose the effect of Well Fed." SoundData="Food down" SoundType="3" CategoryRestrict="False" Category="General" Timer="False" TimerName="" Tabbed="False" />
