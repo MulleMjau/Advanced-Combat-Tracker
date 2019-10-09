@@ -2,10 +2,10 @@
 
 ## Shadowbringers  
 
-### S Rank:
+### [S Rank:]
     <Trigger R="Added new combatant (?i)(Aglaope|The Forgiven Rebellion|Ixtab|Gunitt|Tyger|Forgiven Pedantry|Tarchia)\. .+Level: 80 Max HP: \d{8,} Max" SD="S rank, $1" ST="3" CR="F" C="Hunt" T="F" TN="" Ta="F" />
 
-### Super S Rank Adds (Check HERE(https://ffxiv.consolegameswiki.com/wiki/Forgiven_Gossip) for Spawn points. 4 adds that need to be killed together to spawn the Super S Rank - not tested):
+### Super S Rank Adds (Check [HERE](https://ffxiv.consolegameswiki.com/wiki/Forgiven_Gossip) for Spawn points. 4 adds that need to be killed together to spawn the Super S Rank - not tested):
     <Trigger R="Added new combatant (?i)(Forgiven Gossip)\. .+Level: 80 Max HP: \d{8} Max" SD="Super S Rank Add, $1" ST="3" CR="F" C="Hunt" T="F" TN="" Ta="F" />
 
 ### A Rank:
