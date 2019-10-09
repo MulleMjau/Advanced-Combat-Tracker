@@ -13,6 +13,5 @@ I ___always___ have these running, as without them I'm pretty much guaranteed to
 
 ##  Others
 ###  [Raids](https://github.com/MulleMjau/Advanced-Combat-Tracker/blob/master/Kat's%20Triggers/Raids.md)
-###  [Trials](https://pastebin.com/QJwLyj9k)
-###  [24-Man](https://pastebin.com/i1Jnjh02)
+###  [Trials](https://github.com/MulleMjau/Advanced-Combat-Tracker/blob/master/Kat's%20Triggers/Trials.md)
 ###  [Others](https://github.com/MulleMjau/Advanced-Combat-Tracker/blob/master/Kat's%20Triggers/Others.md)
