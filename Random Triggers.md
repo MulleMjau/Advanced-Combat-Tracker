@@ -36,23 +36,22 @@
 ## Heavensward  
 
 ### S Rank:
-
-<Trigger R="Added new combatant (?i)(Kaiser Behemoth|Senmurv|Gandarewa|Bird of Paradise|The Pale Rider|Leucrotta)\. .+Level: 60 Max HP: \d{6,} Max" SD="S rank, $1" ST="3" CR="F" C="Hunt" T="F" TN="" Ta="F" />
+    <Trigger R="Added new combatant (?i)(Kaiser Behemoth|Senmurv|Gandarewa|Bird of Paradise|The Pale Rider|Leucrotta)\. .+Level: 60 Max HP: \d{6,} Max" SD="S rank, $1" ST="3" CR="F" C="Hunt" T="F" TN="" Ta="F" />
 ### A Rank:
 
-<Trigger R="Added new combatant (?i)(Agathos|Bune|Campacti|Enkelados|Lord Of The Wyverns|Lyuba|Mirka|Pylraster|Sisiutl|Slipkinx Steeljoints|Stench Blossom|Stolas)\. .+Level: 60 Max HP: \d{6} Max" SD="A rank, $1" ST="3" CR="F" C="Hunt" T="F" TN="" Ta="F" />
+    <Trigger R="Added new combatant (?i)(Agathos|Bune|Campacti|Enkelados|Lord Of The Wyverns|Lyuba|Mirka|Pylraster|Sisiutl|Slipkinx Steeljoints|Stench Blossom|Stolas)\. .+Level: 60 Max HP: \d{6} Max" SD="A rank, $1" ST="3" CR="F" C="Hunt" T="F" TN="" Ta="F" />
 ### B Rank:
 
-<Trigger R="Added new combatant (?i)(Alteci|False Gigantopithecus|Gnath Cometdrone|Kreutzet|Lycidas|Omni|Pterygotus|Sanu Vali Of Dancing Wings|Scitalis|Squonk|The Scarecrow|Thextera)\. .+Level: 60 Max HP: \d{5} Max" SD="B rank, $1" ST="3" CR="F" C="Hunt" T="F" TN="" Ta="F" />
+    <Trigger R="Added new combatant (?i)(Alteci|False Gigantopithecus|Gnath Cometdrone|Kreutzet|Lycidas|Omni|Pterygotus|Sanu Vali Of Dancing Wings|Scitalis|Squonk|The Scarecrow|Thextera)\. .+Level: 60 Max HP: \d{5} Max" SD="B rank, $1" ST="3" CR="F" C="Hunt" T="F" TN="" Ta="F" />
  
 
 ## ARR  
 
 ### S Rank:
-<Trigger R="Added new combatant (?i)(Croque-Mitaine|Croakadile|Bonnacon|Garlok|Nandi|Chernobog|Brontes|Zona Seeker|Lampalagua|Nunyunuwi|Minhocao|Laideronnette|Mindflayer|Wulgaru|Thousand-cast Theda|Safat|Agrippa The Mighty)\. .+Level: 50 Max HP: \d{6,8} Max" SD="S rank, $1" ST="3" CR="F" C="Hunt" T="F" TN="" Ta="F" />
+    <Trigger R="Added new combatant (?i)(Croque-Mitaine|Croakadile|Bonnacon|Garlok|Nandi|Chernobog|Brontes|Zona Seeker|Lampalagua|Nunyunuwi|Minhocao|Laideronnette|Mindflayer|Wulgaru|Thousand-cast Theda|Safat|Agrippa The Mighty)\. .+Level: 50 Max HP: \d{6,8} Max" SD="S rank, $1" ST="3" CR="F" C="Hunt" T="F" TN="" Ta="F" />
 
 ### A Rank:
-<Trigger R="Added new combatant (?i)(Alectryon|Cornu|Dalvag's Final Flame|Forneus|Ghede Ti Malice|Girtab|Hellsclaw|Kurrea|Maahes|Marberry|Marraco|Melt|Nahn|Sabotender Bailarina|Unktehi|Vogaal Ja|Zanig'oh)\. .+Level: 50 Max HP: \d{6} Max " SD="A rank, $1" ST="3" CR="F" C="Hunt" T="F" TN="" Ta="F" />
+    <Trigger R="Added new combatant (?i)(Alectryon|Cornu|Dalvag's Final Flame|Forneus|Ghede Ti Malice|Girtab|Hellsclaw|Kurrea|Maahes|Marberry|Marraco|Melt|Nahn|Sabotender Bailarina|Unktehi|Vogaal Ja|Zanig'oh)\. .+Level: 50 Max HP: \d{6} Max " SD="A rank, $1" ST="3" CR="F" C="Hunt" T="F" TN="" Ta="F" />
 
 ### B Rank:
-<Trigger R="Added new combatant (?i)(Albin The Ashen|Barbastelle|Bloody Mary|Dark Helmet|Flame Sergeant Dalvag|Gatling|Leech
+    <Trigger R="Added new combatant (?i)(Albin The Ashen|Barbastelle|Bloody Mary|Dark Helmet|Flame Sergeant Dalvag|Gatling|Leech
