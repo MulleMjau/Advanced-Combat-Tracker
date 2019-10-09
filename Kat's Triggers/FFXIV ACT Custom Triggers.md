@@ -7,11 +7,9 @@ To add them to [ACT](http://advancedcombattracker.com/home.php), copy the entire
 I ___always___ have these running, as without them I'm pretty much guaranteed to miss the odd pull, or miss food falling off!
 
 	<Trigger R="has initiated a ready check" SD="Ready check" ST="3" CR="F" C="General" T="F" TN="" Ta="F" />
-	
-	<Trigger R="Battle commencing in (?&lt;length&gt;\d+) seconds! \(" SD="Pulling in ${length}" ST="3" CR="F" C="General" T="F" TN="" Ta="F" />
-	
-	<Trigger R="Countdown canceled by " SD="Scratch That, Hold Up" ST="3" CR="F" C="General" T="F" TN="" Ta="F" />
-	
+	</>
+	<Trigger R="Battle commencing in (?&lt;length&gt;\d+) seconds! \(" SD="Pulling in ${length}" ST="3" CR="F" C="General" T="F" TN="" Ta="F" />	
+	<Trigger R="Countdown canceled by " SD="Scratch That, Hold Up" ST="3" CR="F" C="General" T="F" TN="" Ta="F" />	
 	<Trigger R="You lose the effect of Well Fed." SD="Food down" ST="3" CR="F" C="General" T="F" TN="" Ta="F" />
 
 ##  Others
