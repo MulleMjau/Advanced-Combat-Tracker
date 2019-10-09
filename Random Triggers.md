@@ -1,6 +1,6 @@
 # Hunting triggers
 
-##S hadowbringers  
+## Shadowbringers  
 
 ### S Rank:
     <Trigger R="Added new combatant (?i)(Aglaope|The Forgiven Rebellion|Ixtab|Gunitt|Tyger|Forgiven Pedantry|Tarchia)\. .+Level: 80 Max HP: \d{8,} Max" SD="S rank, $1" ST="3" CR="F" C="Hunt" T="F" TN="" Ta="F" />
