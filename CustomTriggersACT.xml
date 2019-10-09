@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Config>
+	<CustomTriggers>
+		<Trigger Active="True" Regex=".*:Lamebrix Strikebocks:1AB8:.*" SoundData="in to may lay" SoundType="3" CategoryRestrict="False" Category="A10" Timer="False" TimerName="" Tabbed="False" />
+		<Trigger Active="True" Regex=".*:Lamebrix Strikebocks:1AB9:.*" SoundData="out out out" SoundType="3" CategoryRestrict="False" Category="A10" Timer="False" TimerName="" Tabbed="False" />
+		<Trigger Active="True" Regex=".*:Lamebrix Strikebocks:1ABA:.*" SoundData="spread your legs" SoundType="3" CategoryRestrict="False" Category="A10" Timer="False" TimerName="" Tabbed="False" />
+		<Trigger Active="True" Regex=".*:Lamebrix Strikebocks:1ABB:.*" SoundData="stack stack stack" SoundType="3" CategoryRestrict="False" Category="A10" Timer="False" TimerName="" Tabbed="False" />
+		<Trigger Active="True" Regex="Lamebrix Strikebocks readies Gobrush Rushgob." SoundData="Tank Buster" SoundType="3" CategoryRestrict="False" Category="A10" Timer="False" TimerName="" Tabbed="False" />
+		<Trigger Active="True" Regex="Lamebrix Strikebocks readies Gobsnick Leghops." SoundData="Don't Move" SoundType="3" CategoryRestrict="False" Category="A10" Timer="False" TimerName="" Tabbed="False" />
+		<Trigger Active="True" Regex="Alexander Prime readies Gravitational Anomaly" SoundData="GA Bait and Dodge" SoundType="3" CategoryRestrict="False" Category="A12" Timer="False" TimerName="" Tabbed="False" />
+		<Trigger Active="True" Regex="Alexander Prime readies Radiant Sacrament" SoundData="Under Under" SoundType="3" CategoryRestrict="False" Category="A12" Timer="False" TimerName="" Tabbed="False" />
+		<Trigger Active="True" Regex="Alexander Prime readies Sacrament" SoundData="Corners Corners" SoundType="3" CategoryRestrict="False" Category="A12" Timer="False" TimerName="" Tabbed="False" />
+		<Trigger Active="True" Regex="Alexander Prime readies Void of Repentance" SoundData="Puddle Positions" SoundType="2" CategoryRestrict="False" Category="A12" Timer="False" TimerName="" Tabbed="False" />
+		<Trigger Active="True" Regex="suffers? the effect of Prey" SoundData="Prey Prey" SoundType="3" CategoryRestrict="False" Category="A12" Timer="False" TimerName="" Tabbed="False" />
+		<Trigger Active="True" Regex="You suffer the effect of (?&lt;status&gt;Defamation|Shared Sentence|House Arrest|Restraining Order|Aggravated Assault)" SoundData="Staysis ${status}" SoundType="3" CategoryRestrict="False" Category="A12" Timer="False" TimerName="" Tabbed="False" />
+		<Trigger Active="True" Regex="You suffer the effect of (Defamation|Shared Sentence|House Arrest|Restraining Order|Aggravated Assault)" SoundData="Staysis Staysis" SoundType="3" CategoryRestrict="False" Category="A12" Timer="False" TimerName="" Tabbed="False" />
+		<Trigger Active="True" Regex="Battle commencing in (?&lt;length&gt;\d+) seconds! \(" SoundData="Pulling in ${length}" SoundType="3" CategoryRestrict="False" Category="General" Timer="False" TimerName="" Tabbed="False" />
+		<Trigger Active="True" Regex="Countdown canceled by " SoundData="Scratch That, Hold Up" SoundType="3" CategoryRestrict="False" Category="General" Timer="False" TimerName="" Tabbed="False" />
+		<Trigger Active="True" Regex="has initiated a ready check" SoundData="Ready check" SoundType="3" CategoryRestrict="False" Category="General" Timer="False" TimerName="" Tabbed="False" />
+		<Trigger Active="True" Regex="You lose the effect of Well Fed." SoundData="Food down" SoundType="3" CategoryRestrict="False" Category="General" Timer="False" TimerName="" Tabbed="False" />
+		<Trigger Active="True" Regex="((?&lt;char&gt;You)|(?&lt;char&gt;[A-Za-z']+) [A-Za-z']+) use(s?) (?&lt;break&gt;Skyshard|Healing Wind|Big Shot|Shield Wall|Braver|Starstorm|Breath of the Earth|Desperado|Mighty Guard|Bladedance|Astral Stasis|Meteor|Saggitarius Arrow|Dragonsong Dive|Dark Force|Satellite Beam|Final Heaven|Chimatsuri|Last Bastion|Angel Feathers|Teraflare|Land Waker|Pulse of Life|Doom of the Living|Vermilion Scourge|Crimson Lotus|Gun Metal Soul)\." SoundData="Ell Bee ${char} with ${break}." SoundType="3" CategoryRestrict="False" Category="Hunts/general battle" Timer="False" TimerName="" Tabbed="False" />
+		<Trigger Active="True" Regex="16:40039BED:Angada:1FFE:Scythe Tail" SoundData="Move Out Out" SoundType="3" CategoryRestrict="False" Category="Hunts/general battle" Timer="False" TimerName="" Tabbed="False" />
+		<Trigger Active="True" Regex="1B:[0-9A-F]{8}:(?&lt;char&gt;[a-zA-Z']*) [a-zA-Z']{1,}:[0-9A-F]{4}:[0-9A-F]{4}:001E:[0-9A-F]{4}:[0-9A-F]{4}:[0-9A-F]{4}:" SoundData="Prey on ${char}" SoundType="3" CategoryRestrict="False" Category="Hunts/general battle" Timer="True" TimerName="" Tabbed="False" />
+		<Trigger Active="True" Regex="readies \d+-tonze Swing" SoundData="Back Back for Swing" SoundType="3" CategoryRestrict="False" Category="Hunts/general battle" Timer="False" TimerName="" Tabbed="False" />
+		<Trigger Active="True" Regex="readies Chirp" SoundData="Sleep Time" SoundType="3" CategoryRestrict="False" Category="Hunts/general battle" Timer="False" TimerName="" Tabbed="False" />
+		<Trigger Active="True" Regex="14:2306:Halicarnassus" SoundData="Conal positions" SoundType="3" CategoryRestrict="False" Category="O3" Timer="False" TimerName="" Tabbed="False" />
+		<Trigger Active="True" Regex="14:2308:Halicarnassus" SoundData="Vine Mind Jack" SoundType="3" CategoryRestrict="False" Category="O3" Timer="False" TimerName="" Tabbed="False" />
+		<Trigger Active="True" Regex="14:230A:Halicarnassus" SoundData="Blue Boxes" SoundType="3" CategoryRestrict="False" Category="O3" Timer="False" TimerName="" Tabbed="False" />
+		<Trigger Active="True" Regex="14:230E:Halicarnassus" SoundData="Book positions" SoundType="3" CategoryRestrict="False" Category="O3" Timer="False" TimerName="" Tabbed="False" />
+		<Trigger Active="True" Regex="Halicarnassus readies Oink" SoundData="Stack Stack for Pig" SoundType="3" CategoryRestrict="False" Category="O3" Timer="False" TimerName="" Tabbed="False" />
+		<Trigger Active="True" Regex="Halicarnassus readies Ribbit" SoundData="Rybit Rybit" SoundType="3" CategoryRestrict="False" Category="O3" Timer="False" TimerName="" Tabbed="False" />
+		<Trigger Active="True" Regex="^03:Added new combatant Remorse" SoundData="Knockback" SoundType="3" CategoryRestrict="False" Category="O5" Timer="False" TimerName="" Tabbed="False" />
+		<Trigger Active="True" Regex="Phantom Train readies Acid Rain" SoundData="AoE" SoundType="3" CategoryRestrict="False" Category="O5" Timer="False" TimerName="" Tabbed="False" />
+		<Trigger Active="True" Regex="Phantom Train readies Diabolic Headlamp" SoundData="stack" SoundType="3" CategoryRestrict="False" Category="O5" Timer="False" TimerName="" Tabbed="False" />
+		<Trigger Active="True" Regex="Phantom Train readies Head On" SoundData="knockback" SoundType="3" CategoryRestrict="False" Category="O5" Timer="False" TimerName="" Tabbed="False" />
+		<Trigger Active="True" Regex="The Phantom Train readies Doom Strike." SoundData="tank buster" SoundType="3" CategoryRestrict="False" Category="O5" Timer="False" TimerName="" Tabbed="False" />
+		<Trigger Active="True" Regex="Demon Chadarnook readies Demonic Howl" SoundData="AoE" SoundType="3" CategoryRestrict="False" Category="O6" Timer="False" TimerName="" Tabbed="False" />
+		<Trigger Active="True" Regex="Demon Chadarnook readies Demonic Pain" SoundData="away" SoundType="3" CategoryRestrict="False" Category="O6" Timer="False" TimerName="" Tabbed="False" />
+		<Trigger Active="True" Regex="Demon Chadarnook readies Demonic Shear" SoundData="Tank buster" SoundType="3" CategoryRestrict="False" Category="O6" Timer="False" TimerName="" Tabbed="False" />
+		<Trigger Active="True" Regex="Demon Chadarnook readies Demonic Wave" SoundData="behind block" SoundType="3" CategoryRestrict="False" Category="O6" Timer="False" TimerName="" Tabbed="False" />
+		<Trigger Active="True" Regex="Demon Chadarnook readies Possession" SoundData="painting" SoundType="3" CategoryRestrict="False" Category="O6" Timer="False" TimerName="" Tabbed="False" />
+		<Trigger Active="True" Regex="You suffer the effect of Last Kiss" SoundData="pass to off tank" SoundType="3" CategoryRestrict="False" Category="O6" Timer="False" TimerName="" Tabbed="False" />
+		<Trigger Active="True" Regex="1B:[0-9A-F]{8}:(?&lt;char&gt;[a-zA-Z']*) [a-zA-Z']{1,}:[0-9A-F]{4}:[0-9A-F]{4}:000E:[0-9A-F]{4}:[0-9A-F]{4}:[0-9A-F]{4}:" SoundData="Cannon on ${char}" SoundType="3" CategoryRestrict="False" Category="O7" Timer="False" TimerName="" Tabbed="False" />
+		<Trigger Active="True" Regex="The Guardian gains the effect of Bibliotaph Simulation" SoundData="Biblio" SoundType="3" CategoryRestrict="False" Category="O7" Timer="False" TimerName="" Tabbed="False" />
+		<Trigger Active="True" Regex="The Guardian gains the effect of Dadaluma Simulation" SoundData="Missile Positions" SoundType="3" CategoryRestrict="False" Category="O7" Timer="False" TimerName="" Tabbed="False" />
+		<Trigger Active="True" Regex="The Guardian readies Diffractive Plasma" SoundData="Raid' AOE" SoundType="3" CategoryRestrict="False" Category="O7" Timer="False" TimerName="" Tabbed="False" />
+		<Trigger Active="True" Regex="The Guardian readies Magitek Ray." SoundData="Laser Laser" SoundType="3" CategoryRestrict="False" Category="O7" Timer="False" TimerName="" Tabbed="False" />
+		<Trigger Active="True" Regex="The Guardian readies Retrieve Program." SoundData="Retrieve" SoundType="3" CategoryRestrict="False" Category="O7" Timer="False" TimerName="" Tabbed="False" />
+		<Trigger Active="True" Regex="You suffer the effect of Searing Wind." SoundData="Sear Sear" SoundType="3" CategoryRestrict="False" Category="O7" Timer="False" TimerName="" Tabbed="False" />
+		<Trigger Active="True" Regex="14:2900:Kefka starts using Wings Of Destruction on Kefka" SoundData="Max melee" SoundType="3" CategoryRestrict="False" Category="O8" Timer="False" TimerName="" Tabbed="False" />
+		<Trigger Active="True" Regex="Graven Image starts using Ave Maria on Graven Image." SoundData="Face statue" SoundType="3" CategoryRestrict="False" Category="O8" Timer="False" TimerName="" Tabbed="False" />
+		<Trigger Active="True" Regex="Graven Image starts using Idyllic Will on Mulle Mjau." SoundData="Damage Middle" SoundType="3" CategoryRestrict="False" Category="O8" Timer="False" TimerName="" Tabbed="False" />
+		<Trigger Active="True" Regex="Graven Image starts using Indolent Will on Graven Image" SoundData="look away" SoundType="3" CategoryRestrict="False" Category="O8" Timer="False" TimerName="" Tabbed="False" />
+		<Trigger Active="True" Regex="Graven Image starts using Indulgent Will on Mulle Mjau." SoundData="Damage Edges" SoundType="3" CategoryRestrict="False" Category="O8" Timer="False" TimerName="" Tabbed="False" />
+		<Trigger Active="True" Regex="Kefka readies Aero Assault." SoundData="Pushback" SoundType="3" CategoryRestrict="False" Category="O8" Timer="False" TimerName="" Tabbed="False" />
+		<Trigger Active="True" Regex="Kefka readies Forsaken." SoundData="heal up" SoundType="3" CategoryRestrict="False" Category="O8" Timer="False" TimerName="" Tabbed="False" />
+		<Trigger Active="True" Regex="Kefka readies Future's End" SoundData="charge, stay" SoundType="3" CategoryRestrict="False" Category="O8" Timer="False" TimerName="" Tabbed="False" />
+		<Trigger Active="True" Regex="Kefka readies Futures Numbered." SoundData="stack, go behind" SoundType="3" CategoryRestrict="False" Category="O8" Timer="False" TimerName="" Tabbed="False" />
+		<Trigger Active="True" Regex="Kefka readies Mana Charge." SoundData="check truth" SoundType="3" CategoryRestrict="False" Category="O8" Timer="False" TimerName="" Tabbed="False" />
+		<Trigger Active="True" Regex="Kefka readies Past's End." SoundData="charge, move middle" SoundType="3" CategoryRestrict="False" Category="O8" Timer="False" TimerName="" Tabbed="False" />
+		<Trigger Active="True" Regex="Kefka readies Pasts Forgotten" SoundData="stack, stay" SoundType="3" CategoryRestrict="False" Category="O8" Timer="False" TimerName="" Tabbed="False" />
+		<Trigger Active="True" Regex="Kefka readies Trine." SoundData="dodge triangles" SoundType="3" CategoryRestrict="False" Category="O8" Timer="False" TimerName="" Tabbed="False" />
+		<Trigger Active="True" Regex="Kefka readies Ultima Upsurge." SoundData="AOE" SoundType="3" CategoryRestrict="False" Category="O8" Timer="False" TimerName="" Tabbed="False" />
+		<Trigger Active="True" Regex="Kefka uses Timely Teleport." SoundData="Follow and behind" SoundType="3" CategoryRestrict="False" Category="O8" Timer="False" TimerName="" Tabbed="False" />
+		<Trigger Active="True" Regex="readies \d+-tonze Swing" SoundData="Back Back for Swing" SoundType="3" CategoryRestrict="False" Category="PotD" Timer="False" TimerName="" Tabbed="False" />
+		<Trigger Active="True" Regex="readies Blaze" SoundData="4 20 blaze it" SoundType="3" CategoryRestrict="False" Category="PotD" Timer="False" TimerName="" Tabbed="False" />
+		<Trigger Active="True" Regex="readies Chirp" SoundData="Sleep Time" SoundType="3" CategoryRestrict="False" Category="PotD" Timer="False" TimerName="" Tabbed="False" />
+		<Trigger Active="True" Regex="The mimimc begins casting \s+" SoundData="Aids Aids" SoundType="3" CategoryRestrict="False" Category="PotD" Timer="False" TimerName="" Tabbed="False" />
+		<Trigger Active="True" Regex=":[0-9A-F]{8}:[a-zA-Z' ]*:7D:Raise:[0-9A-F]{8}:(?&lt;char&gt;[a-zA-Z']*) [a-zA-Z']*:" SoundData="Raise on ${char}" SoundType="3" CategoryRestrict="False" Category="Raises" Timer="False" TimerName="" Tabbed="False" />
+		<Trigger Active="True" Regex="[0-9A-F]{8}:(?&lt;char&gt;\S+) [a-zA-Z']{1,}:[0-9A-F]{4}:[0-9A-F]{4}:007E:" SoundData="Green on ${char}" SoundType="3" CategoryRestrict="False" Category="Shinryu" Timer="False" TimerName="" Tabbed="False" />
+		<Trigger Active="True" Regex="[0-9A-F]{8}:Shinryu:2648:Wyrmwail:[0-9A-F]{8}:Shinryu" SoundData="In Red Bubble" SoundType="3" CategoryRestrict="False" Category="Shinryu" Timer="False" TimerName="" Tabbed="False" />
+		<Trigger Active="True" Regex="Icicle Impact" SoundData="Ice Spears" SoundType="3" CategoryRestrict="False" Category="Shinryu" Timer="False" TimerName="" Tabbed="False" />
+		<Trigger Active="True" Regex="Shinryu readies Akh Morn." SoundData="Arkh Morn" SoundType="3" CategoryRestrict="False" Category="Shinryu" Timer="False" TimerName="" Tabbed="False" />
+		<Trigger Active="True" Regex="Shinryu readies Diamond Dust" SoundData="Don't Move" SoundType="3" CategoryRestrict="False" Category="Shinryu" Timer="False" TimerName="" Tabbed="False" />
+		<Trigger Active="True" Regex="Shinryu readies Earth Breath" SoundData="Lasers Lasers" SoundType="3" CategoryRestrict="False" Category="Shinryu" Timer="False" TimerName="" Tabbed="False" />
+		<Trigger Active="True" Regex="Shinryu readies Hellfire" SoundData="Stay in Puddles" SoundType="3" CategoryRestrict="False" Category="Shinryu" Timer="False" TimerName="" Tabbed="False" />
+		<Trigger Active="True" Regex="The (right|left) wing readies Hypernova" SoundData="Stack in Puddles" SoundType="3" CategoryRestrict="False" Category="Shinryu" Timer="False" TimerName="" Tabbed="False" />
+		<Trigger Active="True" Regex="The (right|left) wing readies Levinbolt" SoundData="Spread Spread" SoundType="3" CategoryRestrict="False" Category="Shinryu" Timer="False" TimerName="" Tabbed="False" />
+		<Trigger Active="True" Regex="The heart has fully regenerated." SoundData="Heart Up" SoundType="3" CategoryRestrict="False" Category="Shinryu" Timer="False" TimerName="" Tabbed="False" />
+		<Trigger Active="True" Regex="1B:[0-9A-F]{8}:(?&lt;char&gt;[a-zA-Z']*) [a-zA-Z']{1,}:[0-9A-F]{4}:[0-9A-F]{4}:006E:[0-9A-F]{4}:[0-9A-F]{4}:[0-9A-F]{4}:" SoundData="Lightning on ${char}" SoundType="3" CategoryRestrict="False" Category="Susano" Timer="False" TimerName="" Tabbed="False" />
+		<Trigger Active="True" Regex="1B:[0-9A-F]{8}:\S+:[0-9A-F]{4}:[0-9A-F]{4}:004B:[0-9A-F]{4}:[0-9A-F]{4}:[0-9A-F]{4}:" SoundData="Dice Dice" SoundType="3" CategoryRestrict="False" Category="Susano" Timer="False" TimerName="" Tabbed="False" />
+		<Trigger Active="True" Regex="full moon infuses Tsukuyomi!" SoundData="Outside" SoundType="3" CategoryRestrict="False" Category="Tsukuyomi" Timer="False" TimerName="" Tabbed="False" />
+		<Trigger Active="True" Regex="new moon infuses Tsukuyomi!" SoundData="Inside" SoundType="3" CategoryRestrict="False" Category="Tsukuyomi" Timer="False" TimerName="" Tabbed="False" />
+		<Trigger Active="True" Regex="starts using Bright Blade on Tsukuyomi." SoundData="Southeast" SoundType="3" CategoryRestrict="False" Category="Tsukuyomi" Timer="False" TimerName="" Tabbed="False" />
+		<Trigger Active="True" Regex="starts using Dark Blade on Tsukuyomi." SoundData="Southwest" SoundType="3" CategoryRestrict="False" Category="Tsukuyomi" Timer="False" TimerName="" Tabbed="False" />
+		<Trigger Active="True" Regex="Tsukuyomi:2BBC:" SoundData="Gun" SoundType="3" CategoryRestrict="False" Category="Tsukuyomi" Timer="False" TimerName="" Tabbed="False" />
+		<Trigger Active="True" Regex="Tsukuyomi:2BBD:" SoundData="Spear" SoundType="3" CategoryRestrict="False" Category="Tsukuyomi" Timer="False" TimerName="" Tabbed="False" />
+		<Trigger Active="True" Regex="1B:[0-9A-F]{8}:(?&lt;char&gt;[a-zA-Z']*) [a-zA-Z']{1,}:[0-9A-F]{4}:[0-9A-F]{4}:000E:[0-9A-F]{4}:[0-9A-F]{4}:[0-9A-F]{4}:" SoundData="Cannon on ${char}" SoundType="3" CategoryRestrict="False" Category="Z1T9" Timer="False" TimerName="" Tabbed="False" />
+		<Trigger Active="True" Regex="Zurvan readies Biting Halberd." SoundData="Stack Stack Behind" SoundType="3" CategoryRestrict="False" Category="Z1T9" Timer="False" TimerName="" Tabbed="False" />
+		<Trigger Active="True" Regex="Zurvan readies Ciclicle." SoundData="In Too May Lay" SoundType="3" CategoryRestrict="False" Category="Z1T9" Timer="False" TimerName="" Tabbed="False" />
+		<Trigger Active="True" Regex="Zurvan readies Southern Cross." SoundData="Bait Bait then Move" SoundType="3" CategoryRestrict="False" Category="Z1T9" Timer="False" TimerName="" Tabbed="False" />
+		<Trigger Active="True" Regex="Zurvan readies Tail End" SoundData="Move Out Out" SoundType="3" CategoryRestrict="False" Category="Z1T9" Timer="False" TimerName="" Tabbed="False" />
+		<Trigger Active="True" Regex="Zurvan readies The Demon's Claw" SoundData="Main Tank Knockback" SoundType="3" CategoryRestrict="False" Category="Z1T9" Timer="False" TimerName="" Tabbed="False" />
+	</CustomTriggers>
+</Config>
